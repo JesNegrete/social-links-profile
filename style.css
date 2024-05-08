@@ -51,6 +51,11 @@ p, h1, h2, h3, h4, h5, h6 {
   --grey: hsl(0, 0%, 20%);
   --dark-grey: hsl(0, 0%, 12%);
   --off-black: hsl(0, 0%, 8%);
+
+   --regular: 200;
+  --bold: 600;
+  --extra-bold: 700; 
+}
 }
 
 body {
@@ -96,6 +101,7 @@ h1 {
   border-radius: 10px;
   width: 275px;
   height: 35px;
+  font-weight: var(--bold);
 }
 
 .links:hover {
@@ -109,6 +115,8 @@ p {
 
 #location {
   color: var(--green);
+    font-weight: var(--bold);
+  font-size: 13px;
 }
 
 #quote {
